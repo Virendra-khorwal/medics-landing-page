@@ -6,7 +6,7 @@ import Button from '../button/button';
 
 const Cta = () => {
     return (
-      <div className="cta">
+      <div className="cta" id='cta'>
         <div className="cta-container container">
           <div
             className="c-left"

@@ -5,7 +5,7 @@ import centreImg from '../../images/153.png';
 
 const Working = () => {
    return (
-     <div className="working">
+     <div className="working" id='working'>
        <div className="sec-title">
          <IoMdRocket />
          How to Use

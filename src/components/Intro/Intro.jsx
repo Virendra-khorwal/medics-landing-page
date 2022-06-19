@@ -16,7 +16,7 @@ const Intro = () => {
   }, []);
 
   return (
-    <div className="intro container">
+    <div className="intro container" id="home" >
       <div
         className="i-left"
         data-aos="fade-right"

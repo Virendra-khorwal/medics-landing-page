@@ -11,7 +11,7 @@ import Img3 from "../../images/10.png";
 
 const Features = () => {
   return (
-    <div className="features">
+    <div className="features" id="feature">
       <div className="sec-title">
         <IoIosOptions />
         Features
