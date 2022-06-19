@@ -12,7 +12,7 @@
     flex: 1;
     display: flex;
     align-items: center;
-    
+
 
 }
 
@@ -62,8 +62,12 @@
     font-size: 30px;
     color: var(--green);
     border-radius: 6px;
-    text-align: center;
     width: 14rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
 }
 
 .f-card:hover {
@@ -74,5 +78,5 @@
 
 .f-card p {
     font-size: 20px;
-    
+
 }

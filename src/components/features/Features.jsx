@@ -13,19 +13,31 @@ const Features = () => {
   return (
     <div className="features">
       <div className="sec-title">
-          <IoIosOptions/>
-          Features</div>
+        <IoIosOptions />
+        Features
+      </div>
       <div className="container">
-        <div className="f-left">
+        <div
+          className="f-left"
+          data-aos="fade-right"
+          data-aos-offset="300"
+          data-aos-easing="ease-in-sine"
+          data-aos-duration="2000"
+        >
           <div className="img-container">
             <img className="f-img1" src={Img1} alt="App" />
             <img className="f-img2" src={Img2} alt="App" />
             <img className="f-img3" src={Img3} alt="App" />
           </div>
         </div>
-        <div className="f-right">
+        <div
+          className="f-right"
+          data-aos="fade-left"
+          data-aos-offset="500"
+          data-aos-duration="2000"
+        >
           <div className="f-cards">
-            <div className="f-card f-call">
+            <div className="f-card f-call ">
               <FaPhoneAlt />
               <p>Talk with Doctors</p>
             </div>

@@ -8,7 +8,11 @@ const Cta = () => {
     return (
       <div className="cta">
         <div className="cta-container container">
-          <div className="c-left">
+          <div
+            className="c-left"
+            data-aos="fade-right"
+            data-aos-duration="2000"
+          >
             <h6>
               Download the <span>App</span> and Get Started!
             </h6>
@@ -16,7 +20,11 @@ const Cta = () => {
           </div>
           <div className="c-right">
             <img className="img1" src={Img1} alt="App" />
-            <img className="img2" src={Img2} alt="App" />
+            <img
+              className="img2"
+              src={Img2}
+              alt="App"
+            />
           </div>
         </div>
       </div>

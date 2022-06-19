@@ -1,19 +1,20 @@
 import { FaAppStoreIos } from "react-icons/fa";
 import { FaGooglePlay } from "react-icons/fa";
+import { motion } from "framer-motion";
 
 import "./button.css";
 
 const Button = () => {
   return (
     <div className="download">
-      <button className="btn b-btn">
+      <motion.button whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.9 }} className="btn b-btn ">
         <FaGooglePlay />
         Android
-      </button>
-      <button className="btn b-btn">
+      </motion.button>
+      <motion.button whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.9 }} className="btn b-btn ">
         <FaAppStoreIos />
         IOS
-      </button>
+      </motion.button>
     </div>
   );
 };
